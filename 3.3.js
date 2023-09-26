@@ -1,13 +1,13 @@
 const world_population = 7900000000;
 
 function percentageOfWorld1(population){
-    let p = (population / world_population )*100;
+    const p = (population / world_population )*100;
     // console.log(p.toFixed(2) + "%");
     return p.toFixed(1);
 }
-let china = percentageOfWorld1(1441000000);
-let sweden = percentageOfWorld1(10000000);
-let england = percentageOfWorld1(100000000);
+const china = percentageOfWorld1(1441000000);
+const sweden = percentageOfWorld1(10000000);
+const england = percentageOfWorld1(100000000);
 console.log("china: " + china );
 console.log("sweden: "+ sweden);
 console.log("england:" + england);
@@ -18,8 +18,8 @@ const percentageOfWorld2 = (population)=>{
     return p.toFixed(1);
 }
 // let china2 = percentageOfWorld2(1441000000);
-let sweden2 = percentageOfWorld2(180000000);
-let england2 = percentageOfWorld2(1000000000);
+const sweden2 = percentageOfWorld2(180000000);
+const england2 = percentageOfWorld2(1000000000);
 console.log("china: " + percentageOfWorld2(1441000000));
 console.log("sweden: "+ sweden2);
 console.log("england:" + england2);
